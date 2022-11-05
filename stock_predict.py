@@ -69,7 +69,8 @@ model.fit(xtrain, ytrain, batch_size=1, epochs=30)
 
 # Step 7: Test 
 features = np.array([[177.089996, 180.419998, 174919600]])
-model.predict(features)
+print(model.predict(features))
+# [[181.37862]]
 
 # 11/5/2022 
 # Following a Tutorial 
